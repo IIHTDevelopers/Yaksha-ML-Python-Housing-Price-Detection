@@ -20,8 +20,8 @@ class ExceptionalTests(unittest.TestCase):
                 print("TestModelExists= Passed")
             else:
                 passed = False
-                 test_obj.yakshaAssert("TestModelExists", False, "exception")
-                 print("TestModelExists = Failed")
+                test_obj.yakshaAssert("TestModelExists", False, "exception")
+                print("TestModelExists = Failed")
         except:
             passed = False
             test_obj.yakshaAssert("TestModelExists", False, "exception")
