@@ -1,6 +1,8 @@
 import pickle
-
+import sys,os
+sys.path.insert(0, os.getcwd()) 
 from code import constants
+
 
 class Model():
     def __init__(self):
