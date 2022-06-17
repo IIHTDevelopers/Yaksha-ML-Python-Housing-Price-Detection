@@ -12,7 +12,7 @@ try:
     X_train, X_test, y_train, y_test = model.data_transformation()
 except:
     pass
-from test.TestUtils import TestUtils
+from tests.TestUtils import TestUtils
 class FuctionalTests(unittest.TestCase):
     def test_train_test_split_reproduciability(self):
         test_obj = TestUtils()
