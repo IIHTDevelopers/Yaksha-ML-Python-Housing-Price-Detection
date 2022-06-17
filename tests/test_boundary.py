@@ -7,7 +7,7 @@ from code.ml import Model
 model = Model()
 
 #file_path = os.path.dirname(os.path.realpath(__file__)) + '/../output_boundary_revised.txt'
-from test.TestUtils import TestUtils
+from tests.TestUtils import TestUtils
 class BoundaryTests(unittest.TestCase):
     def test_is_model_underfitting(self):
         try:
