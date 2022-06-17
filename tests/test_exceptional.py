@@ -8,7 +8,7 @@ from code import constants
 model = Model()
 
 #file_path = os.path.dirname(os.path.realpath(__file__)) + '/../output_exception_revised.txt'
-from test.TestUtils import TestUtils
+from tests.TestUtils import TestUtils
 class ExceptionalTests(unittest.TestCase):
     def test_model_exists(self):
         test_obj = TestUtils()
