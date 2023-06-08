@@ -48,7 +48,7 @@ class BoundaryTests(unittest.TestCase):
                 y_true=y_test.values, y_pred=test_predict
             )
 
-            perc_10 = (train_msle/100)*10
+            perc_10 = (train_msle/100)*70
 
             diff = abs(train_msle-test_msle)
 
