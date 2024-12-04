@@ -6,6 +6,10 @@
 	pip install numpy
 	pip install sklearn
 
+* To update typing_extension:
+
+	pip install --upgrade typing_extensions
+
 * To launch application:
 	
 	python3 code/ml.py
